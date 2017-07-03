@@ -1,25 +1,43 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	text-align: center;
+	margin-top: .7em;
+}
+
+header h1 {
+	font-size: 30px;
+}
+
+.container {
+	max-width: 100%;
+}
+
 .search-bar {
-	margin: 20px;
+	padding: .7em;
 	text-align: center;
 }
 
 .search-bar input {
-	width: 75%;
-}
-
-.video-item img {
-	max-width: 64px;
+	width: 100%;
 }
 
 .video-detail .details {
-	margin-top: 10px;
-	padding: 10px;
+	margin: .5em 0;
 	border: 1px solid #ddd;
 	border-radius: 4px;
 }
 
 .details-title {
 	font-size: 25px;
+	margin: .5em;
+}
+
+.details-description {
+	font-family: 'Roboto Slab', serif;
+	margin: .5em;
 }
 
 .list-group-item {
