@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Zilla Slab', serif;
 }
 
 header {
@@ -36,8 +36,9 @@ header h1 {
 }
 
 .details-description {
-	font-family: 'Roboto Slab', serif;
-	margin: .5em;
+	font-family: 'Open Sans', sans-serif;
+	margin: .5em 1em;
+	line-height: 1.6em;
 }
 
 .list-group-item {
